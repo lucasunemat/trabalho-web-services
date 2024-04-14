@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Web Services</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.css'>
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Web Services</h1>
+    </header>
+    <main>
+        <div class="div-cadastros">
+            <form class="formulario-cadastros">
+                <span>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </span>
+                <span>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </span>
+                <button type="submit" id="submit">Enviar</button>
+                <button id="consultar">Consultar</button>
+            </form>
+            <table id="tabela-cadastros">
+                <thead>
+                    <tr>
+                        <input type="hidden" id="idUsuario">
+                        <th>Identificador</th>
+                        <th>Nome</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-cadastros-conteudo">
+                    <!-- 
+                    <tr>
+                        <td>1</td>
+                        <td>João</td>
+                        <td>joao@teste.com</td>
+                    </tr> 
+                    -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <script src='./assets/js/main.js'></script>
+</body>
+
+</html>
