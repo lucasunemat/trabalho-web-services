@@ -55,3 +55,13 @@
     display: flex;
     gap: 1rem;
 }
+
+#tabela-cadastros {
+    max-width: 60rem;
+    border-collapse: collapse;
+}
+
+#tabela-cadastros td {
+    padding: 0.5rem;
+    border: 1px solid #333;
+}
